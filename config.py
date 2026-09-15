@@ -3,7 +3,7 @@ from dataclasses import dataclass
 
 @dataclass
 class Config:
-    BOT_TOKEN: str = os.getenv("BOT_TOKEN", "8647459092:AAE499of7P6i16R3K31imVcrW3zrHubjxhI")
+    BOT_TOKEN: str = os.getenv("BOT_TOKEN", "8465860341:AAFYv9bkH-3ST83flC1keAQiJQof3fFDedw")
     OWNER_ID: int = int(os.getenv("OWNER_ID", "8555472509"))
     DATABASE_PATH: str = "gmail_creator_db.sqlite3"
 
